@@ -12,6 +12,7 @@ LABEL com.github.actions.color="gray-dark"
 
 RUN npm install -g firebase-tools
 RUN npm install -g tslint
+RUN npm install -g typescript
 
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
